@@ -1,0 +1,99 @@
+#menuHeader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* text-outline: 0; */
+    background: #ffffff;
+    box-shadow: 0 0 1px 1px #486bd4;
+    z-index: 2;
+    padding: 5px;
+}
+
+body {
+    background: #486bd4;
+}
+
+#innerContainer {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: none;
+}
+
+#signup {
+    background: #FF6666;
+    border: 1px #FF6666;
+    box-shadow: 0 0 1px 1px #FF6666;
+    color: white;
+}
+
+#login {
+    background: #ffffff;
+    border: 1px solid #486bd4;
+    box-shadow: 0 0 1px 1px #486bd4;
+}
+
+button {
+    padding: 0 20px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: black; */
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 80px;
+    float: left;
+    z-index: 3;
+    margin-left: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #e3eaff;
+}
+
+.bannerImage {
+    width: 30%;
+}
+
+.courseList {
+    /* border-left: 10px solid #224099; */
+    /* border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; */
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    background: #e3eaff;
+}
+
+#courseList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
