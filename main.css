@@ -60,11 +60,7 @@ button {
     margin-left: 50px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -96,4 +92,20 @@ h5 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+#loginForm {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: #ffffff;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
 }
